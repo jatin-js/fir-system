@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Login Page</title>
+</head>
+<body>
+
+ <style>
+         body {
+         background-image: url('https://www.doublclicks.com/wp-content/uploads/2013/05/blurred-background-3.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position: center;
+         }
+   </style>
+
+
+<form name="loginForm" method="post" id="form">
+    {% csrf_token %}
+<table width="20%" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+</tr>
+
+<tr>
+<td>Adhaar Card:</td>
+<td><input type="text" size=25 name="a_login" align="center"></td>
+</tr>
+<tr>
+<td><button class="GFG"
+    onclick="window.location.href = 'https://ide.geeksforgeeks.org';">
+        Click Here
+    </button></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+
